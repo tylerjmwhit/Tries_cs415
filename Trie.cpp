@@ -14,7 +14,7 @@ void Trie::insert(std::string newword) {
 	for(int i = 0; i <newword.length();i++){
 		int index = newword.at(i) - 'a';
 		if(!tempnode->listofchars()->at(index)){ //checking to see if a node already exists at that character
-			tempnode->addnewchar(index);
+			tempnode->addnewchar(index); //if not add new char
 		}
 		tempnode = tempnode->listofchars()->at(index); //moving onto next character
 	}
@@ -30,7 +30,7 @@ bool Trie::search(std::string searchword) {
 		}
 		tempnode = tempnode->listofchars()->at(index); //moving onto next character
 	}
-	return tempnode->getWord(); //end of word so set word to true
+	return tempnode->getWord(); //we are at where the word should be so return if word is true or not
 }
 
 void Trie::remove(std::string deleteword) {
