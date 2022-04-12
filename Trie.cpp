@@ -24,7 +24,7 @@ void Trie::insert(std::string newword) {
 bool Trie::search(std::string searchword) {
 	TrieNode *tempnode = _myroot;
 	for(int i = 0; i <searchword.length();i++){
-		int index = searchword.at(i) - 'a';
+		int index = searchword.at(i) - 'a'; //getting index that character should be stored at
 		if(!tempnode->listofchars()->at(index)){ //checking to see if a node already exists at that character
 			return false;
 		}

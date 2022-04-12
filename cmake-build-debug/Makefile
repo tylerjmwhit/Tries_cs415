@@ -166,6 +166,30 @@ Trie.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cs415Project3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs415Project3.dir\Trie.cpp.s
 .PHONY : Trie.cpp.s
 
+TrieBST.obj: TrieBST.cpp.obj
+.PHONY : TrieBST.obj
+
+# target to build an object file
+TrieBST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cs415Project3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs415Project3.dir\TrieBST.cpp.obj
+.PHONY : TrieBST.cpp.obj
+
+TrieBST.i: TrieBST.cpp.i
+.PHONY : TrieBST.i
+
+# target to preprocess a source file
+TrieBST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cs415Project3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs415Project3.dir\TrieBST.cpp.i
+.PHONY : TrieBST.cpp.i
+
+TrieBST.s: TrieBST.cpp.s
+.PHONY : TrieBST.s
+
+# target to generate assembly for a file
+TrieBST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cs415Project3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs415Project3.dir\TrieBST.cpp.s
+.PHONY : TrieBST.cpp.s
+
 TrieNode.obj: TrieNode.cpp.obj
 .PHONY : TrieNode.obj
 
@@ -229,6 +253,9 @@ help:
 	@echo ... Trie.obj
 	@echo ... Trie.i
 	@echo ... Trie.s
+	@echo ... TrieBST.obj
+	@echo ... TrieBST.i
+	@echo ... TrieBST.s
 	@echo ... TrieNode.obj
 	@echo ... TrieNode.i
 	@echo ... TrieNode.s

@@ -131,12 +131,32 @@ CMakeFiles\cs415Project3.dir\Reader.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\cs415Project3.dir\Reader.cpp.s /c C:\Users\Tyler\CLionProjects\cs415Project3\Reader.cpp
 <<
 
+CMakeFiles\cs415Project3.dir\TrieBST.cpp.obj: CMakeFiles\cs415Project3.dir\flags.make
+CMakeFiles\cs415Project3.dir\TrieBST.cpp.obj: ..\TrieBST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tyler\CLionProjects\cs415Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cs415Project3.dir/TrieBST.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\cs415Project3.dir\TrieBST.cpp.obj /FdCMakeFiles\cs415Project3.dir\ /FS -c C:\Users\Tyler\CLionProjects\cs415Project3\TrieBST.cpp
+<<
+
+CMakeFiles\cs415Project3.dir\TrieBST.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs415Project3.dir/TrieBST.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\cs415Project3.dir\TrieBST.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Tyler\CLionProjects\cs415Project3\TrieBST.cpp
+<<
+
+CMakeFiles\cs415Project3.dir\TrieBST.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs415Project3.dir/TrieBST.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\cs415Project3.dir\TrieBST.cpp.s /c C:\Users\Tyler\CLionProjects\cs415Project3\TrieBST.cpp
+<<
+
 # Object files for target cs415Project3
 cs415Project3_OBJECTS = \
 "CMakeFiles\cs415Project3.dir\main.cpp.obj" \
 "CMakeFiles\cs415Project3.dir\Trie.cpp.obj" \
 "CMakeFiles\cs415Project3.dir\TrieNode.cpp.obj" \
-"CMakeFiles\cs415Project3.dir\Reader.cpp.obj"
+"CMakeFiles\cs415Project3.dir\Reader.cpp.obj" \
+"CMakeFiles\cs415Project3.dir\TrieBST.cpp.obj"
 
 # External object files for target cs415Project3
 cs415Project3_EXTERNAL_OBJECTS =
@@ -145,9 +165,10 @@ cs415Project3.exe: CMakeFiles\cs415Project3.dir\main.cpp.obj
 cs415Project3.exe: CMakeFiles\cs415Project3.dir\Trie.cpp.obj
 cs415Project3.exe: CMakeFiles\cs415Project3.dir\TrieNode.cpp.obj
 cs415Project3.exe: CMakeFiles\cs415Project3.dir\Reader.cpp.obj
+cs415Project3.exe: CMakeFiles\cs415Project3.dir\TrieBST.cpp.obj
 cs415Project3.exe: CMakeFiles\cs415Project3.dir\build.make
 cs415Project3.exe: CMakeFiles\cs415Project3.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tyler\CLionProjects\cs415Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cs415Project3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tyler\CLionProjects\cs415Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cs415Project3.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cs415Project3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cs415Project3.dir\objects1.rsp @<<
  /out:cs415Project3.exe /implib:cs415Project3.lib /pdb:C:\Users\Tyler\CLionProjects\cs415Project3\cmake-build-debug\cs415Project3.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

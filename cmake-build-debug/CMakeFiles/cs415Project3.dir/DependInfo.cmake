@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Tyler/CLionProjects/cs415Project3/Reader.cpp" "C:/Users/Tyler/CLionProjects/cs415Project3/cmake-build-debug/CMakeFiles/cs415Project3.dir/Reader.cpp.obj"
   "C:/Users/Tyler/CLionProjects/cs415Project3/Trie.cpp" "C:/Users/Tyler/CLionProjects/cs415Project3/cmake-build-debug/CMakeFiles/cs415Project3.dir/Trie.cpp.obj"
+  "C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.cpp" "C:/Users/Tyler/CLionProjects/cs415Project3/cmake-build-debug/CMakeFiles/cs415Project3.dir/TrieBST.cpp.obj"
   "C:/Users/Tyler/CLionProjects/cs415Project3/TrieNode.cpp" "C:/Users/Tyler/CLionProjects/cs415Project3/cmake-build-debug/CMakeFiles/cs415Project3.dir/TrieNode.cpp.obj"
   "C:/Users/Tyler/CLionProjects/cs415Project3/main.cpp" "C:/Users/Tyler/CLionProjects/cs415Project3/cmake-build-debug/CMakeFiles/cs415Project3.dir/main.cpp.obj"
   )

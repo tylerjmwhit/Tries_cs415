@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/Trie.hpp">
 			<Option target="cs415Project3"/>
 		</Unit>
+		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.cpp">
+			<Option target="cs415Project3"/>
+		</Unit>
+		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.hpp">
+			<Option target="cs415Project3"/>
+		</Unit>
 		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/TrieNode.cpp">
 			<Option target="cs415Project3"/>
 		</Unit>
