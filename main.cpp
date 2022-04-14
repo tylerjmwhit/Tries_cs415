@@ -13,7 +13,7 @@ int main(int argc, const char *argv[]) {
 			_myTrie->insert(myword);
 	}
 	bool mybool = _myTrie->search("hello");
-	if(mybool == true){
+	if(mybool){
 		std::cout << "hello is in the trie";
 	}
 	else{

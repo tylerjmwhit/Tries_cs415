@@ -16,7 +16,7 @@ Reader::Reader(const std::string& filename) {
 std::string Reader::gettext() {
 	char c;
 	std::string tempword;
-	while(_inStream.get(c) && !_inStream.eof()){
+	while(_inStream.get(c)){
 		if (!isalpha(c)){
 			if(tempword.back() != ' ')
 				tempword += ' ';
@@ -25,5 +25,6 @@ std::string Reader::gettext() {
 			tempword += tolower(c);
 		}
 	}
+	_inStream.close();
 	return tempword;
 }

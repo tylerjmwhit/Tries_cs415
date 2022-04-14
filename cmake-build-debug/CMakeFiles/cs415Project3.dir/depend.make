@@ -9,6 +9,9 @@ CMakeFiles\cs415Project3.dir\Trie.cpp.obj: ..\Trie.cpp
 CMakeFiles\cs415Project3.dir\Trie.cpp.obj: ..\Trie.hpp
 CMakeFiles\cs415Project3.dir\Trie.cpp.obj: ..\TrieNode.hpp
 
+CMakeFiles\cs415Project3.dir\TrieBST.cpp.obj: ..\TrieBST.cpp
+CMakeFiles\cs415Project3.dir\TrieBST.cpp.obj: ..\TrieBST.hpp
+
 CMakeFiles\cs415Project3.dir\TrieNode.cpp.obj: ..\TrieNode.cpp
 CMakeFiles\cs415Project3.dir\TrieNode.cpp.obj: ..\TrieNode.hpp
 
