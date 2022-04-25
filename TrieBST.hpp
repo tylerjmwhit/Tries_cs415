@@ -12,9 +12,11 @@ public:
 	TrieBST();
 	void insert_bst(std::string newword);
 	bool search_bst(std::string searchword);
+	int size_bst();
 private:
 	TreeNode* insert_bst_local(std::string newword, int index, TreeNode* root);
 	bool search_bst_local(std::string searchword,int index, TreeNode* root);
+	int size_bst_local(TreeNode* root);
 	TreeNode* _myroot;
 };
 

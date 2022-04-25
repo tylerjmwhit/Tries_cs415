@@ -43,6 +43,9 @@ int main(int argc, const char *argv[]) {
 	std::cout<< "the time elapsed to build the bst trie was: " << elapsed << std::endl;
 	std::cout<< "the time elapsed to build the bst trie was in chrono: " << elapseding.count()<< std::endl;
 
+	std::cout << "the size of the trie is:" << _myTrie->size() << std::endl;
+	std::cout << "the size of the BST trie is:" << _myTrieBST->size_bst() << std::endl;
+
 
 ////	bool mybool = _myTrie->search("a");
 //	std::vector<std::string> completes = _myTrie->autocomplete("wa");

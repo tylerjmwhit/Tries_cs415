@@ -9,6 +9,21 @@ Trie::Trie() {
 	_myroot = new TrieNode();
 }
 
+int Trie::size(){
+	return local_size(_myroot)-1;
+}
+
+int Trie::local_size(TrieNode *root) {
+	if(root == nullptr){
+		return 1;
+	}
+	int count = 0;
+	for(int i = 0; i < root->listofchars()->size();i++){
+		count += local_size(root->listofchars()->at(i));
+	}
+	return count + 1;
+}
+
 void Trie::insert(std::string newword) {
 	TrieNode *tempnode = _myroot;
 	for(int i = 0; i <newword.length();i++){
@@ -64,5 +79,7 @@ std::vector<std::string> Trie::helperAuto(std::string prefix, TrieNode* currNode
 	}
 	return words;
 }
+
+
 
 

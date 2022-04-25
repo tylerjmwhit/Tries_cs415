@@ -57,3 +57,14 @@ bool TrieBST::search_bst_local(std::string searchword, int index, TreeNode *root
 	else return root->getWord();
 }
 
+int TrieBST::size_bst() {
+	return size_bst_local(_myroot);
+}
+
+int TrieBST::size_bst_local(TreeNode *root) {
+	if(root == nullptr){
+		return 0;
+	}
+	return 1 + size_bst_local(root->leftSubtree()) + size_bst_local(root->rightSubtree()) + size_bst_local(root->depthSubtree());
+}
+
