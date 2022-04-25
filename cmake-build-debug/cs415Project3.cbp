@@ -88,6 +88,9 @@
 		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/Reader.hpp">
 			<Option target="cs415Project3"/>
 		</Unit>
+		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/TreeNode.hpp">
+			<Option target="cs415Project3"/>
+		</Unit>
 		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/Trie.cpp">
 			<Option target="cs415Project3"/>
 		</Unit>
@@ -107,9 +110,6 @@
 			<Option target="cs415Project3"/>
 		</Unit>
 		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/main.cpp">
-			<Option target="cs415Project3"/>
-		</Unit>
-		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/treenode.hpp">
 			<Option target="cs415Project3"/>
 		</Unit>
 		<Unit filename="C:/Users/Tyler/CLionProjects/cs415Project3/CMakeLists.txt">

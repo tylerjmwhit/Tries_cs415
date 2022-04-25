@@ -33,7 +33,36 @@ bool Trie::search(std::string searchword) {
 	return tempnode->getWord(); //we are at where the word should be so return if word is true or not
 }
 
-void Trie::remove(std::string deleteword) {
-	//not sure if this needs to be implemented
+std::vector<std::string> Trie::autocomplete(std::string prefix) {
+	TrieNode* temp = _myroot;
+	std::vector<std::string> completed;
+	std::string currString = prefix;
+	for ( int i = 0; i < prefix.size(); i++ ){
+		int letter = prefix.at(i) - 'a';
+		if( temp->listofchars()->at(letter) == nullptr ){ //if next char is not found
+			std::cout << "The string does not exist in this trie." << std::endl;
+			return completed; //returning empty vector
+		}
+		temp = temp->listofchars()->at(letter);
+	}
+	return helperAuto( currString, temp, completed );
 }
+
+std::vector<std::string> Trie::helperAuto(std::string prefix, TrieNode* currNode, std::vector<std::string> &words) {
+	if( currNode == nullptr ){
+		return words;
+	}
+	if( currNode->getWord() ){
+		words.push_back(prefix);
+	}
+	for( int i = 0; i < 26; i++ ){
+		if( currNode->listofchars() != nullptr ){
+			char letter = i + 'a';
+			std::string temp = prefix + letter;
+			helperAuto(temp, currNode->listofchars()->at(i), words);
+		}
+	}
+	return words;
+}
+
 

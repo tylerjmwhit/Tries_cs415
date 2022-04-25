@@ -5,11 +5,11 @@ CMakeFiles/cs415Project3.dir/Reader.cpp.obj
  C:/Users/Tyler/CLionProjects/cs415Project3/Reader.cpp
  C:/Users/Tyler/CLionProjects/cs415Project3/Reader.hpp
 CMakeFiles/cs415Project3.dir/Trie.cpp.obj
- C:/Users/Tyler/CLionProjects/cs415Project3/Reader.hpp
  C:/Users/Tyler/CLionProjects/cs415Project3/Trie.cpp
  C:/Users/Tyler/CLionProjects/cs415Project3/Trie.hpp
  C:/Users/Tyler/CLionProjects/cs415Project3/TrieNode.hpp
 CMakeFiles/cs415Project3.dir/TrieBST.cpp.obj
+ C:/Users/Tyler/CLionProjects/cs415Project3/TreeNode.hpp
  C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.cpp
  C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.hpp
 CMakeFiles/cs415Project3.dir/TrieNode.cpp.obj
@@ -17,6 +17,8 @@ CMakeFiles/cs415Project3.dir/TrieNode.cpp.obj
  C:/Users/Tyler/CLionProjects/cs415Project3/TrieNode.hpp
 CMakeFiles/cs415Project3.dir/main.cpp.obj
  C:/Users/Tyler/CLionProjects/cs415Project3/Reader.hpp
+ C:/Users/Tyler/CLionProjects/cs415Project3/TreeNode.hpp
  C:/Users/Tyler/CLionProjects/cs415Project3/Trie.hpp
+ C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.hpp
  C:/Users/Tyler/CLionProjects/cs415Project3/TrieNode.hpp
  C:/Users/Tyler/CLionProjects/cs415Project3/main.cpp

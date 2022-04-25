@@ -7,17 +7,17 @@
 
 
 #include "TrieNode.hpp"
-#include "Reader.hpp"
 #include<string>
-#include <fstream>
+
 
 class Trie {
 public:
 	Trie();
 	void insert(std::string newword);
 	bool search(std::string searchword);
-	void remove(std::string deleteword); // not sure if needs to be implemented
+	std::vector<std::string> autocomplete(std::string prefix);
 private:
+	std::vector<std::string> helperAuto(std::string prefix, TrieNode* currNode, std::vector<std::string> &words);
 	TrieNode *_myroot;
 };
 
