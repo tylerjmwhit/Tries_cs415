@@ -6,15 +6,49 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Tyler/CLionProjects/cs415Project3/Reader.hpp
+string
+-
+fstream
+-
+iostream
+-
+
 C:/Users/Tyler/CLionProjects/cs415Project3/TreeNode.hpp
 
-C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.cpp
-TrieBST.hpp
-C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.hpp
+C:/Users/Tyler/CLionProjects/cs415Project3/Trie.hpp
+map
+-
+TrieNode.hpp
+C:/Users/Tyler/CLionProjects/cs415Project3/TrieNode.hpp
+string
+-
 
 C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.hpp
 TreeNode.hpp
 C:/Users/Tyler/CLionProjects/cs415Project3/TreeNode.hpp
 string
+-
+vector
+-
+
+C:/Users/Tyler/CLionProjects/cs415Project3/TrieNode.hpp
+vector
+-
+map
+-
+
+C:/Users/Tyler/CLionProjects/cs415Project3/main.cpp
+iostream
+-
+sstream
+-
+Reader.hpp
+C:/Users/Tyler/CLionProjects/cs415Project3/Reader.hpp
+Trie.hpp
+C:/Users/Tyler/CLionProjects/cs415Project3/Trie.hpp
+TrieBST.hpp
+C:/Users/Tyler/CLionProjects/cs415Project3/TrieBST.hpp
+chrono
 -
 
